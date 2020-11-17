@@ -40,7 +40,6 @@ def create_plot(table):
     ax1.legend()
     plt.show()
     print('R^2 = {0}'.format(score))
-    print('Next predicted value = {0}'.format(model(len(x)+1)))
 
 
 table = get_values(90, 'usd')
